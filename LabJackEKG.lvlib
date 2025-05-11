@@ -15,13 +15,17 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ConnectionInfo.ctl" Type="VI" URL="../Typedefs/ConnectionInfo.ctl"/>
 		<Item Name="ReadData.ctl" Type="VI" URL="../Typedefs/ReadData.ctl"/>
+		<Item Name="ReadStreamData.ctl" Type="VI" URL="../Typedefs/ReadStreamData.ctl"/>
 		<Item Name="AcqusitionConfig.ctl" Type="VI" URL="../Typedefs/AcqusitionConfig.ctl"/>
 		<Item Name="ClampSignalType.ctl" Type="VI" URL="../Typedefs/ClampSignalType.ctl"/>
+		<Item Name="ReadStreamConfig.ctl" Type="VI" URL="../Typedefs/ReadStreamConfig.ctl"/>
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
+	<Item Name="open_close_fgv.vi" Type="VI" URL="../open_close_fgv.vi"/>
 	<Item Name="read_stream.vi" Type="VI" URL="../read_stream.vi"/>
 	<Item Name="read_tags.vi" Type="VI" URL="../read_tags.vi"/>
 	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
 	<Item Name="start_stream.vi" Type="VI" URL="../start_stream.vi"/>
+	<Item Name="stop_stream.vi" Type="VI" URL="../stop_stream.vi"/>
 </Library>
