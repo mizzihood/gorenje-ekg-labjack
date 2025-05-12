@@ -22,7 +22,6 @@
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
-	<Item Name="open_close_fgv.vi" Type="VI" URL="../open_close_fgv.vi"/>
 	<Item Name="read_stream.vi" Type="VI" URL="../read_stream.vi"/>
 	<Item Name="read_tags.vi" Type="VI" URL="../read_tags.vi"/>
 	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
