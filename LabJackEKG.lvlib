@@ -24,7 +24,9 @@
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
 	<Item Name="read_stream.vi" Type="VI" URL="../read_stream.vi"/>
 	<Item Name="read_tags.vi" Type="VI" URL="../read_tags.vi"/>
+	<Item Name="read_tags_c-drum.vi" Type="VI" URL="../read_tags_c-drum.vi"/>
 	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
+	<Item Name="start_c-drum.vi" Type="VI" URL="../start_c-drum.vi"/>
 	<Item Name="start_stream.vi" Type="VI" URL="../start_stream.vi"/>
 	<Item Name="stop_stream.vi" Type="VI" URL="../stop_stream.vi"/>
 </Library>
