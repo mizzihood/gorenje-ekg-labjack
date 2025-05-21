@@ -15,6 +15,7 @@
 		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../Functions/cut_analog_input_sampling_window.vi"/>
 		<Item Name="frequency_to_rpm.vi" Type="VI" URL="../Functions/frequency_to_rpm.vi"/>
 		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../Functions/rms_voltage_to_current.vi"/>
+		<Item Name="input_32_bit_channel_producer.vi" Type="VI" URL="../Functions/input_32_bit_channel_producer.vi"/>
 		<Item Name="direction_channel_consumer.vi" Type="VI" URL="../Functions/direction_channel_consumer.vi"/>
 		<Item Name="input_channel_producer.vi" Type="VI" URL="../Functions/input_channel_producer.vi"/>
 		<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
@@ -31,7 +32,6 @@
 		<Item Name="ConnectionInfo.ctl" Type="VI" URL="../Typedefs/ConnectionInfo.ctl"/>
 		<Item Name="AcquisitionConfig.ctl" Type="VI" URL="../Typedefs/AcquisitionConfig.ctl"/>
 		<Item Name="StreamProducerLoopData.ctl" Type="VI" URL="../Tests/StreamProducerLoopData.ctl"/>
-		<Item Name="LabJackQueues.ctl" Type="VI" URL="../Typedefs/LabJackQueues.ctl"/>
 		<Item Name="LabJackData.ctl" Type="VI" URL="../Typedefs/LabJackData.ctl"/>
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
