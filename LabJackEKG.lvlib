@@ -20,12 +20,11 @@
 		<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
 		<Item Name="rms_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/rms_analog_input_multichannel_consumer.vi"/>
 		<Item Name="thermocouple_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/thermocouple_analog_input_multichannel_consumer.vi"/>
-		<Item Name="produce_data.vi" Type="VI" URL="../Functions/produce_data.vi"/>
+		<Item Name="process_stream_data.vi" Type="VI" URL="../Functions/process_stream_data.vi"/>
 		<Item Name="parse_config_list.vi" Type="VI" URL="../Functions/parse_config_list.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="test_top.vi" Type="VI" URL="../Tests/test_top.vi"/>
-		<Item Name="stream_only_test.vi" Type="VI" URL="../Tests/stream_only_test.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -40,5 +39,7 @@
 	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
 	<Item Name="read.vi" Type="VI" URL="../read.vi"/>
 	<Item Name="stop.vi" Type="VI" URL="../stop.vi"/>
-	<Item Name="create_resources.vi" Type="VI" URL="../create_resources.vi"/>
+	<Item Name="produce_data.vi" Type="VI" URL="../produce_data.vi"/>
+	<Item Name="obtain_resources.vi" Type="VI" URL="../obtain_resources.vi"/>
+	<Item Name="release_resources.vi" Type="VI" URL="../release_resources.vi"/>
 </Library>
