@@ -9,43 +9,36 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Functions" Type="Folder">
-		<Item Name="build_read_data_query_string.vi" Type="VI" URL="../Functions/build_read_data_query_string.vi"/>
+		<Item Name="input_multichannel_producer.vi" Type="VI" URL="../Functions/input_multichannel_producer.vi"/>
+		<Item Name="counter_channel_producer.vi" Type="VI" URL="../Functions/counter_channel_producer.vi"/>
+		<Item Name="frequency_to_flow_volume.vi" Type="VI" URL="../Functions/frequency_to_flow_volume.vi"/>
+		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../cut_analog_input_sampling_window.vi"/>
+		<Item Name="frequency_to_rpm.vi" Type="VI" URL="../Functions/frequency_to_rpm.vi"/>
+		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../rms_voltage_to_current.vi"/>
+		<Item Name="direction_channel_consumer.vi" Type="VI" URL="../Functions/direction_channel_consumer.vi"/>
+		<Item Name="input_channel_producer.vi" Type="VI" URL="../Functions/input_channel_producer.vi"/>
+		<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
+		<Item Name="rms_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/rms_analog_input_multichannel_consumer.vi"/>
+		<Item Name="thermocouple_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/thermocouple_analog_input_multichannel_consumer.vi"/>
+		<Item Name="produce_data.vi" Type="VI" URL="../produce_data.vi"/>
 		<Item Name="parse_config_list.vi" Type="VI" URL="../Functions/parse_config_list.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
+		<Item Name="test_top.vi" Type="VI" URL="../Tests/test_top.vi"/>
 		<Item Name="stream_only_test.vi" Type="VI" URL="../Tests/stream_only_test.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="ConnectionInfo.ctl" Type="VI" URL="../Typedefs/ConnectionInfo.ctl"/>
-		<Item Name="ReadData.ctl" Type="VI" URL="../Typedefs/ReadData.ctl"/>
-		<Item Name="ReadStreamData.ctl" Type="VI" URL="../Typedefs/ReadStreamData.ctl"/>
-		<Item Name="AcqusitionConfig.ctl" Type="VI" URL="../Typedefs/AcqusitionConfig.ctl"/>
-		<Item Name="ClampSignalType.ctl" Type="VI" URL="../Typedefs/ClampSignalType.ctl"/>
-		<Item Name="ReadStreamConfig.ctl" Type="VI" URL="../Typedefs/ReadStreamConfig.ctl"/>
+		<Item Name="AcquisitionConfig.ctl" Type="VI" URL="../Typedefs/AcquisitionConfig.ctl"/>
+		<Item Name="StreamProducerLoopData.ctl" Type="VI" URL="../Tests/StreamProducerLoopData.ctl"/>
+		<Item Name="LabJackQueues.ctl" Type="VI" URL="../Typedefs/LabJackQueues.ctl"/>
+		<Item Name="LabJackData.ctl" Type="VI" URL="../Typedefs/LabJackData.ctl"/>
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
-	<Item Name="input_multichannel_producer.vi" Type="VI" URL="../Functions/input_multichannel_producer.vi"/>
-	<Item Name="counter_channel_producer.vi" Type="VI" URL="../Functions/counter_channel_producer.vi"/>
-	<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
-	<Item Name="rms_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/rms_analog_input_multichannel_consumer.vi"/>
-	<Item Name="thermocouple_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/thermocouple_analog_input_multichannel_consumer.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
-	<Item Name="read_stream.vi" Type="VI" URL="../read_stream.vi"/>
-	<Item Name="read_stream_only.vi" Type="VI" URL="../read_stream_only.vi"/>
-	<Item Name="read_tags.vi" Type="VI" URL="../read_tags.vi"/>
-	<Item Name="read_tags_c-drum.vi" Type="VI" URL="../read_tags_c-drum.vi"/>
-	<Item Name="slope_to_flow.vi" Type="VI" URL="../Functions/slope_to_flow.vi"/>
-	<Item Name="slope_to_rpm.vi" Type="VI" URL="../Functions/slope_to_rpm.vi"/>
 	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
-	<Item Name="start_c-drum.vi" Type="VI" URL="../start_c-drum.vi"/>
-	<Item Name="start_stream.vi" Type="VI" URL="../start_stream.vi"/>
-	<Item Name="start_stream_only.vi" Type="VI" URL="../start_stream_only.vi"/>
-	<Item Name="stop_stream.vi" Type="VI" URL="../stop_stream.vi"/>
-	<Item Name="stream_only.vi" Type="VI" URL="../Tests/stream_only.vi"/>
-	<Item Name="stream_only_production.vi" Type="VI" URL="../Tests/stream_only_production.vi"/>
-	<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../rms_voltage_to_current.vi"/>
-	<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../cut_analog_input_sampling_window.vi"/>
-	<Item Name="direction_channel_consumer.vi" Type="VI" URL="../Functions/direction_channel_consumer.vi"/>
-	<Item Name="input_channel_producer.vi" Type="VI" URL="../Functions/input_channel_producer.vi"/>
+	<Item Name="read.vi" Type="VI" URL="../read.vi"/>
+	<Item Name="stop.vi" Type="VI" URL="../stop.vi"/>
+	<Item Name="create_resources.vi" Type="VI" URL="../create_resources.vi"/>
 </Library>

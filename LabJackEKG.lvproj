@@ -13,7 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LabJackEKG.lvlib" Type="Library" URL="../LabJackEKG.lvlib"/>
-		<Item Name="StreamProducerLoopData.ctl" Type="VI" URL="../Tests/StreamProducerLoopData.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
