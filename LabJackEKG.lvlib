@@ -12,15 +12,15 @@
 		<Item Name="input_multichannel_producer.vi" Type="VI" URL="../Functions/input_multichannel_producer.vi"/>
 		<Item Name="counter_channel_producer.vi" Type="VI" URL="../Functions/counter_channel_producer.vi"/>
 		<Item Name="frequency_to_flow_volume.vi" Type="VI" URL="../Functions/frequency_to_flow_volume.vi"/>
-		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../cut_analog_input_sampling_window.vi"/>
+		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../Functions/cut_analog_input_sampling_window.vi"/>
 		<Item Name="frequency_to_rpm.vi" Type="VI" URL="../Functions/frequency_to_rpm.vi"/>
-		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../rms_voltage_to_current.vi"/>
+		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../Functions/rms_voltage_to_current.vi"/>
 		<Item Name="direction_channel_consumer.vi" Type="VI" URL="../Functions/direction_channel_consumer.vi"/>
 		<Item Name="input_channel_producer.vi" Type="VI" URL="../Functions/input_channel_producer.vi"/>
 		<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
 		<Item Name="rms_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/rms_analog_input_multichannel_consumer.vi"/>
 		<Item Name="thermocouple_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/thermocouple_analog_input_multichannel_consumer.vi"/>
-		<Item Name="produce_data.vi" Type="VI" URL="../produce_data.vi"/>
+		<Item Name="produce_data.vi" Type="VI" URL="../Functions/produce_data.vi"/>
 		<Item Name="parse_config_list.vi" Type="VI" URL="../Functions/parse_config_list.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
