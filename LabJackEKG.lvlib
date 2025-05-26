@@ -42,4 +42,5 @@
 	<Item Name="produce_data.vi" Type="VI" URL="../produce_data.vi"/>
 	<Item Name="obtain_resources.vi" Type="VI" URL="../obtain_resources.vi"/>
 	<Item Name="release_resources.vi" Type="VI" URL="../release_resources.vi"/>
+	<Item Name="counter_channel_producer_with_max_count.vi" Type="VI" URL="../Functions/counter_channel_producer_with_max_count.vi"/>
 </Library>
