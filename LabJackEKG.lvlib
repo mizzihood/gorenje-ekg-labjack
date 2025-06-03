@@ -9,9 +9,11 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Functions" Type="Folder">
+		<Item Name="constants.vi" Type="VI" URL="../constants.vi"/>
 		<Item Name="input_multichannel_producer.vi" Type="VI" URL="../Functions/input_multichannel_producer.vi"/>
 		<Item Name="counter_channel_producer.vi" Type="VI" URL="../Functions/counter_channel_producer.vi"/>
 		<Item Name="frequency_to_flow_volume.vi" Type="VI" URL="../Functions/frequency_to_flow_volume.vi"/>
+		<Item Name="search_array_for_limit.vi" Type="VI" URL="../Functions/search_array_for_limit.vi"/>
 		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../Functions/cut_analog_input_sampling_window.vi"/>
 		<Item Name="frequency_to_rpm.vi" Type="VI" URL="../Functions/frequency_to_rpm.vi"/>
 		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../Functions/rms_voltage_to_current.vi"/>
@@ -23,6 +25,8 @@
 		<Item Name="thermocouple_analog_input_multichannel_consumer.vi" Type="VI" URL="../Functions/thermocouple_analog_input_multichannel_consumer.vi"/>
 		<Item Name="process_stream_data.vi" Type="VI" URL="../Functions/process_stream_data.vi"/>
 		<Item Name="parse_config_list.vi" Type="VI" URL="../Functions/parse_config_list.vi"/>
+		<Item Name="calc_rms.vi" Type="VI" URL="../Functions/calc_rms.vi"/>
+		<Item Name="sine_fitting.vi" Type="VI" URL="../Functions/sine_fitting.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
 		<Item Name="test_top.vi" Type="VI" URL="../Tests/test_top.vi"/>
@@ -33,6 +37,8 @@
 		<Item Name="AcquisitionConfig.ctl" Type="VI" URL="../Typedefs/AcquisitionConfig.ctl"/>
 		<Item Name="StreamProducerLoopData.ctl" Type="VI" URL="../Tests/StreamProducerLoopData.ctl"/>
 		<Item Name="LabJackData.ctl" Type="VI" URL="../Typedefs/LabJackData.ctl"/>
+		<Item Name="CounterQueues.ctl" Type="VI" URL="../Typedefs/CounterQueues.ctl"/>
+		<Item Name="LabJackGlobalResources.ctl" Type="VI" URL="../Typedefs/LabJackGlobalResources.ctl"/>
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
