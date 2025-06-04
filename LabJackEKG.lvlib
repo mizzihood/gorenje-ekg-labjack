@@ -17,7 +17,7 @@
 		<Item Name="cut_analog_input_sampling_window.vi" Type="VI" URL="../Functions/cut_analog_input_sampling_window.vi"/>
 		<Item Name="frequency_to_rpm.vi" Type="VI" URL="../Functions/frequency_to_rpm.vi"/>
 		<Item Name="rms_voltage_to_current.vi" Type="VI" URL="../Functions/rms_voltage_to_current.vi"/>
-		<Item Name="input_32_bit_channel_producer.vi" Type="VI" URL="../Functions/input_32_bit_channel_producer.vi"/>
+		<Item Name="direction_channel_fgv.vi" Type="VI" URL="../Functions/direction_channel_fgv.vi"/>
 		<Item Name="direction_channel_consumer.vi" Type="VI" URL="../Functions/direction_channel_consumer.vi"/>
 		<Item Name="input_channel_producer.vi" Type="VI" URL="../Functions/input_channel_producer.vi"/>
 		<Item Name="counter_channel_consumer.vi" Type="VI" URL="../Functions/counter_channel_consumer.vi"/>
@@ -39,6 +39,7 @@
 		<Item Name="LabJackData.ctl" Type="VI" URL="../Typedefs/LabJackData.ctl"/>
 		<Item Name="CounterQueues.ctl" Type="VI" URL="../Typedefs/CounterQueues.ctl"/>
 		<Item Name="LabJackGlobalResources.ctl" Type="VI" URL="../Typedefs/LabJackGlobalResources.ctl"/>
+		<Item Name="DirectionFgvOperation.ctl" Type="VI" URL="../Typedefs/DirectionFgvOperation.ctl"/>
 	</Item>
 	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
 	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
