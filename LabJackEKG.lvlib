@@ -29,6 +29,7 @@
 		<Item Name="sine_fitting.vi" Type="VI" URL="../Functions/sine_fitting.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
+		<Item Name="test_analog_only.vi" Type="VI" URL="../Tests/test_analog_only.vi"/>
 		<Item Name="test_top.vi" Type="VI" URL="../Tests/test_top.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
