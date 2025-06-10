@@ -29,8 +29,8 @@
 		<Item Name="sine_fitting.vi" Type="VI" URL="../Functions/sine_fitting.vi"/>
 	</Item>
 	<Item Name="Tests" Type="Folder">
-		<Item Name="test_analog_only.vi" Type="VI" URL="../Tests/test_analog_only.vi"/>
-		<Item Name="test_top.vi" Type="VI" URL="../Tests/test_top.vi"/>
+		<Item Name="lj_test_analog_only.vi" Type="VI" URL="../Tests/lj_test_analog_only.vi"/>
+		<Item Name="lj_test_top.vi" Type="VI" URL="../Tests/lj_test_top.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -42,14 +42,15 @@
 		<Item Name="LabJackGlobalResources.ctl" Type="VI" URL="../Typedefs/LabJackGlobalResources.ctl"/>
 		<Item Name="DirectionFgvOperation.ctl" Type="VI" URL="../Typedefs/DirectionFgvOperation.ctl"/>
 	</Item>
-	<Item Name="close.vi" Type="VI" URL="../close.vi"/>
-	<Item Name="open.vi" Type="VI" URL="../open.vi"/>
-	<Item Name="start.vi" Type="VI" URL="../start.vi"/>
-	<Item Name="read.vi" Type="VI" URL="../read.vi"/>
-	<Item Name="stop.vi" Type="VI" URL="../stop.vi"/>
-	<Item Name="produce_data.vi" Type="VI" URL="../produce_data.vi"/>
-	<Item Name="obtain_resources.vi" Type="VI" URL="../obtain_resources.vi"/>
-	<Item Name="release_resources.vi" Type="VI" URL="../release_resources.vi"/>
-	<Item Name="counter_channel_producer_with_max_count.vi" Type="VI" URL="../Functions/counter_channel_producer_with_max_count.vi"/>
-	<Item Name="decimate.vi" Type="VI" URL="../Functions/decimate.vi"/>
+	<Item Name="lj_close.vi" Type="VI" URL="../lj_close.vi"/>
+	<Item Name="lj_open.vi" Type="VI" URL="../lj_open.vi"/>
+	<Item Name="lj_start.vi" Type="VI" URL="../lj_start.vi"/>
+	<Item Name="lj_read.vi" Type="VI" URL="../lj_read.vi"/>
+	<Item Name="lj_stop.vi" Type="VI" URL="../lj_stop.vi"/>
+	<Item Name="lj_produce_data.vi" Type="VI" URL="../lj_produce_data.vi"/>
+	<Item Name="lj_obtain_resources.vi" Type="VI" URL="../lj_obtain_resources.vi"/>
+	<Item Name="lj_release_resources.vi" Type="VI" URL="../lj_release_resources.vi"/>
+	<Item Name="lj_counter_channel_producer_with_max_count.vi" Type="VI" URL="../Functions/lj_counter_channel_producer_with_max_count.vi"/>
+	<Item Name="lj_decimate.vi" Type="VI" URL="../Functions/lj_decimate.vi"/>
+	<Item Name="lj_filter_counter_glitches.vi" Type="VI" URL="../Functions/lj_filter_counter_glitches.vi"/>
 </Library>
